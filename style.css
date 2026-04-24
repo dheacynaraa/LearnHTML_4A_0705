@@ -1,0 +1,81 @@
+* {
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;  
+}
+
+body {
+    font-family: "Segoe UI";
+    background-color: #0d1117;
+    color: #c9d1c9;
+    line-height: 1.6;
+}
+
+.accent {
+    color: #3a7ce0;
+}
+
+header {
+    background-color: rgba(26, 28, 32, 0.9);
+    padding: 1rem 4.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top: 0;
+    z-index: 100;
+    border-bottom: 1px solid #3a7ce0;
+}
+
+nav a {
+    color: #c9d1c9;
+    font-size: 0.9rem;
+    text-decoration: none;
+    position: relative;
+    padding-bottom: 4px;
+    transition: color 0.3s;
+}
+
+nav {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+} 
+
+nav a:hover {
+    color: #575757;
+}
+
+#about {
+    background-color: #0d1117;
+    padding: 2rem 4.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3rem;
+    min-height: 70vh;        
+}
+
+.hero-kiri {
+    max-width: 550px;
+}
+
+.hero-kiri h2 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: #ffffff;
+    margin-bottom: 0rem;
+    line-height: 1.1;
+}
+
+.hero-kiri p {
+    font-size: 1.2rem;
+}
+
+.hero-kanan img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #21262d;
+    transition: border-color 0.3s;
+}
